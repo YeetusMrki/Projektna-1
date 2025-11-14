@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body, html{
+	height: 100%;
+}
+
+#smol{
+	background: #BDD4E7;
+	width: 40em;
+	height: 40em;
+}
+
+.input{
+	width: 14.6em;
+}
+
+#ttl{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.btn{
+	display: block;
+	margin: auto;
+}
+
+.boldtxt{
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.smalltxt{
+	font-weight: lighter;
+	font-size: 0.7em;
+}
+
+#lorg{
+	background: #4c83af;
+}

@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body, html{
+	height: 100%;
+}
+
+#smol{
+	background: #BDD4E7;
+	width: 40em;
+	height: 40em;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#ttl{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.boldtxt{
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.smalltxt{
+	font-weight: lighter;
+	font-size: 0.7em;
+}
+
+.input{
+	width: 14.6em;
+}
+
+.bottom{
+	font-weight: lighter;
+	font-size: 0.7em;
+	text-align: center;
+}
+
+#email{
+	width: 29.8em;
+}
+
+.btn{
+	display: block;
+	margin: auto;
+}
+
+
+#lorg{
+	background: #4c83af;
+
+	height: 100vh;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
