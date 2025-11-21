@@ -26,6 +26,8 @@ body, html{
 .btn{
 	display: block;
 	margin: auto;
+	width: 5em;
+	height: 2em;
 }
 
 .boldtxt{

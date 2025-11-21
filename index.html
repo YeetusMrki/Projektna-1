@@ -25,11 +25,11 @@
 						
 						<tr>
 							<td>
-								<input class="input" type="text" name="fname"><br>
+								<input class="input" type="text" required name="fname"><br>
 								<label class="smalltxt">First Name</label>
 							</td>
 							<td>
-								<input class="input" type="text" name="lname"><br>
+								<input class="input" type="text" required name="lname"><br>
 								<label class="smalltxt">Last Name</label>
 							</td>
 						</tr>
@@ -241,7 +241,7 @@
 							</td>
 							<td>
 								<p class="boldtxt">Contact Number:</p>
-								<input class="input" type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="123-456-789"><br>	
+								<input class="input" type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required placeholder="123-456-789"><br>	
 								<label class="smalltxt">Please enter a valid phone number</label>
 							</td>
 						</tr>
@@ -249,7 +249,7 @@
 						<tr>
 							<td colspan="2">
 								<p class="boldtxt">Email Address:</p>
-								<input type="email" id="email" name="email" placeholder="example@example.com"><br>
+								<input type="email" id="email" name="email" required placeholder="example@example.com"><br>
 								<label class="smalltxt">Please enter a valid email address</label>
 							</td>
 						</tr>
@@ -257,12 +257,12 @@
 						<tr>
 							<td>
 								<p class="boldtxt">Username:</p>
-								<input class="input" type="text" name="usr"><br>
+								<input class="input" type="text" required name="usr"><br>
 								<label class="smalltxt">Enter your username</label>
 							</td>
 							<td>
 								<p class="boldtxt">Password:</p>
-								<input class="input" type="text" name="pswd"><br>
+								<input class="input" type="text" required name="pswd"><br>
 								<label class="smalltxt">Create a password</label>
 							</td>
 						</tr>
@@ -270,25 +270,25 @@
 						<tr>
 							<td>
 								<p class="boldtxt">Choose your gender:</p>
-								<input type="radio" name="gndr" id="male"> <label for="male">Male</label><br>
-								<input type="radio" name="gndr" id="female"> <label for="female">Female</label><br>
+								<input required type="radio" name="gndr" id="male"> <label for="male">Male</label><br>
+								<input required type="radio" name="gndr" id="female"> <label for="female">Female</label><br>
 							</td>
 							<td>
 								<p class="boldtxt">Confirm Password:</p>
-								<input class="input" type="text" name="cnps"><br>
+								<input required class="input" type="text" name="cnps"><br>
 								<label class="smalltxt" for="cnps">It must match the previous password!</label>
 							</td>
 						</tr>
 						
 						<tr>
 							<td colspan="2">
-								<input class="btn" type="button" name="enter" value="ENTER">
+								<button type="submit" class="btn" name="enter">ENTER</button>
 							</td>
 						</tr>
 						
 						<tr>
 							<td colspan="2">
-								<p class="bottom">If you already have an account, <a href="login.html" target="_blank">click here</a> to log in!</p>
+								<p class="bottom">If you already have an account, <a href="login.html">click here</a> to log in!</p>
 							</td>
 						</tr>
 					</form>
@@ -296,5 +296,8 @@
 			</div>
 		</div>
 	</body>
+	
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src="javaScript/form.js"></script>
 </html>
 
